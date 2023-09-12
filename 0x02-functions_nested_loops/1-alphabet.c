@@ -2,7 +2,9 @@
 #include <unistd.h>
 
 /**
- * main - Entry point print alphabet (lower case)
+ * print_alphabet - Entry point (main)
+ *
+ * Description: This function prints alphabets in lower case from "a" to "z"
  *
  * Return:0 Always
  */
@@ -20,4 +22,3 @@ void print_alphabet(void)
 	_putchar('\n');
 
 }
-
