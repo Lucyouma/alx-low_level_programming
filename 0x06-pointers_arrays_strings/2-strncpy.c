@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-  * _strncat  - Entry point
+  * *_strncpy - Entry point
   * a string copying function
   *
   * @src: parameter
@@ -12,23 +12,19 @@
   *
   * Return: dest
   */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
-	int a, b;
+	int a = 0;
 
-	a = 0;
-	b = 0;
-
-	while (dest[a] != '\0')
+	while (a < n && src[a] != '\0')
 	{
+	dest[a] = src[a];
 	a++;
 	}
-	while (b < n && src[b] != '\0')
+	while (a < n)
 	{
-	dest[a] = src[b];
+	dest[a] = ('\0');
 	a++;
-	b++;
 	}
-	dest[a] = '\0';
 	return (dest);
 }
