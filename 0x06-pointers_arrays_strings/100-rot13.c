@@ -1,11 +1,12 @@
 #include "main.h"
 #include <stdio.h>
+
 /**
-  * rot13 - Entry point
-  *
-  * @s: Function variable
-  *
-  *Return: the function of the string
+ * rot13 - Entry point, string encoding
+ *
+ * @s: String parameter
+ *
+ * Return: String function
  */
 
 char *rot13(char *s)
