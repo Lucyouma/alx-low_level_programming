@@ -1,29 +1,28 @@
 #include "main.h"
 #include <stdio.h>
 /**
-  * rot13 - Entry point
+  *leet - Entry point
+  *encodes a string into 1337
+  * @n: Function variable
   *
-  * @s: Function variable
-  *
-  *Return: the function of the string
+  *Return: n value
  */
 
-char *rot13(char *s)
+char *leet(char *n)
 {
 	int a, b;
-	char data1[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-	char datarot[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
+	char s1[] = "aAeEoOtTlL";
+	char s2[] = "4433007711";
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (a = 0; n[a] != '\0'; a++)
 	{
-	for (b = 0; b < 52; b++)
+	for (b = 0; b < 10; b++)
 	{
-	if (s[a] == data1[b])
+	if (n[a] == s1[b])
 	{
-	s[a] = datarot[b];
-	break;
+	n[a] = s2[b];
 	}
 	}
 	}
-	return (s);
+	return (n);
 }
