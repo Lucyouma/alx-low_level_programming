@@ -6,7 +6,7 @@
  *
  * @s: String parameter
  *
- * Return: String function
+ * Return: String function (*s)
  */
 
 char *rot13(char *s)
