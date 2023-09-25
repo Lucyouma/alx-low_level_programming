@@ -2,7 +2,6 @@
 
 /**
   * print_chessboard - Entry point
-  * chaseboard print
   *
   * @a: variable function declaration
   *
@@ -16,7 +15,7 @@ void print_chessboard(char (*a)[8])
 	for (k = 0; k < 8; k++)
 	{
 	for (r = 0; r < 8; r++)
-	putchar(a[k][r]);
-	putchar('\n');
-		}
-		}
+	_putchar(a[k][r]);
+	_putchar('\n');
+	}
+}
