@@ -1,20 +1,22 @@
 #include "main.h"
+
 /**
- * print_chessboard - Entry point
- *
- * @a: an array
- *
- * Return: Always 0
- */
+  * print_chessboard - Entry point
+  * chaseboard print
+  *
+  * @a: variable function declaration
+  *
+  * Return: 0 Always
+  */
 void print_chessboard(char (*a)[8])
 {
-        int i;
-        int j;
+	int k;
+	int r;
 
-        for (i = 0; i < 8; i++)
-        {
-                for (j = 0; j < 8; j++)
-                        _putchar(a[i][j]);
-                _putchar('\n');
-        }
+	for (k = 0; k < 8; k++)
+	{
+	for (r = 0; r < 8; r++)
+	_putchar(a[k][r]);
+	_putchar('\n');
+	}
 }
