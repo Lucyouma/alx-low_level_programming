@@ -24,7 +24,8 @@ int is_digit(char *s)
 }
 
 /**
- * _strlen – a string length return
+ * _strlen - Main function that returns a string length
+ *
  * @s: evaluate string
  *
  * Return: the string length
@@ -41,7 +42,8 @@ int _strlen(char *s)
 }
 
 /**
- * errors – main handling errors
+ * errors - Main function handling errors
+ *
  */
 void errors(void)
 {

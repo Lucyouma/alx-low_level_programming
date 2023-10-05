@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * array_range – integers array creation
+ * array_range – Entry point, a function creating integers array
  * @min: stored values minimum range
  * @max: stored values and element number maximum range
  *
