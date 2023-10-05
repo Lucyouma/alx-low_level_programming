@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * *malloc_checked – Entry point,
- * malloc memory allocation
+ * malloc_checked – allocates memory using a malloc
  * @b: allocation number
  *
  * Return: allocated memory pointer
@@ -15,7 +14,7 @@ void *malloc_checked(unsigned int b)
 	ptr = malloc(b);
 
 	if (ptr == NULL)
-		exit(98);
+	exit(98);
 
 	return (ptr);
 }
