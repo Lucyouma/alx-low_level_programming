@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- * malloc_checked – allocates memory using a malloc
+ * malloc_checked - Entry point, a function allocaing memory using a malloc
+ *
  * @b: allocation number
  *
  * Return: allocated memory pointer
