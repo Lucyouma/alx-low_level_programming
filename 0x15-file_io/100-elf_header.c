@@ -112,9 +112,9 @@ void print_data(unsigned char *e_ident)
 }
 
 /**
- *  * print_version - Prints the version of an ELF header
- *   * @e_ident: ELF version array pointer
- *    */
+ * print_version - Prints the version of an ELF header
+ * @e_ident: ELF version array pointer
+ */
 void print_version(unsigned char *e_ident)
 {
 	 printf(" Version: %d",
