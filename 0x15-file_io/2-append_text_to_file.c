@@ -6,7 +6,7 @@
  * @text_content: File end pointer
  *
  * Return: In  case of a failed function NULL - -1.
- *         If the file is non-existant the user lacks permissions to write - -1.
+ *         If it is non-existant the user lacks writing permissions - -1.
  *         Otherwise - 1.
  */
 int append_text_to_file(const char *filename, char *text_content)
