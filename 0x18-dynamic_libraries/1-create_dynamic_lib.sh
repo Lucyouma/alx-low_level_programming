@@ -1,5 +1,5 @@
 #!/bin/bash
 # creates dynamic library
 
-gcc -c *.c
+gcc -c -fPIC *.c
 gcc -shared -o libdynamic.so *.o
