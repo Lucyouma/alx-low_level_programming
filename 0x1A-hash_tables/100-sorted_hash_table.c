@@ -64,6 +64,7 @@ shash_table_t *shash_table_create(unsigned long int size)
 	return (table);
 }
 
+
 /**
  * shash_table_set - function that adds an element to the sorted hash table
  * @ht: pointer to sorted hash table
